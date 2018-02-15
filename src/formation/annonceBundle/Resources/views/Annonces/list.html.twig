@@ -1,0 +1,36 @@
+
+{% extends "::base.html.twig" %}
+
+{% block content %}
+<div class="container">
+ <div class="row">
+ <div class="col-md-6">   
+<table border=1 class="table table-striped table-hover">
+    <tr> <td><b>Titre:</b> </td>
+     <td><b>date:</b></td>
+     <td><b>contenu:</b></td>
+      <td><b>categories</b></td>
+    <td><b>Modifier:</b></td>
+    <td><b>Supprimer:</b></td></tr>
+    {%for key,a in annonces %}
+
+
+    <tr><td>{{a.titre}}</td>
+  <td> {{a.date|date('Y-m-d')}}</td>
+<td> {{a.contenu}}</td>
+<td>{{a.categories.nom}}</td>
+<td><a href="{{path('annonces_modifier',{'id':a.id } )}}" >modifier</a></td> 
+{% if is_granted('ROLE_EMPLOYEE') %}
+<td><a href="{{path('annonces_supprimer',{'id':a.id})}}">supprimer </a></td>
+{% else %}
+    <td>vous navez pas le droit de supprimer</td>
+{% endif %}
+    </tr>
+
+    {% endfor %}</table></div>
+ <div class="col-md-6">
+             {% include 'annonceBundle::navigation.html.twig' %}
+         </div>
+ </div>
+</div>
+{% endblock %}

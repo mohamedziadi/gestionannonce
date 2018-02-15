@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/wamp/www/gestionannonce/src/formation/annonceBundle/Controller/AnnonceController.php</file>
+            <file>file:/C:/wamp/www/gestionannonce/src/formation/UserBundle/UserBundle.php</file>
+            <file>file:/C:/wamp/www/gestionannonce/src/formation/annonceBundle/Resources/views/Annonces/add.html.twig</file>
+            <file>file:/C:/wamp/www/gestionannonce/src/formation/UserBundle/Resources/views/Profile/edit.html.twig</file>
+            <file>file:/C:/wamp/www/gestionannonce/src/formation/annonceBundle/Entity/Annonces.php</file>
+            <file>file:/C:/wamp/www/gestionannonce/src/formation/annonceBundle/Form/AnnoncesType.php</file>
+            <file>file:/C:/wamp/www/gestionannonce/src/formation/annonceBundle/Controller/DefaultController.php</file>
+            <file>file:/C:/wamp/www/gestionannonce/src/formation/UserBundle/Resources/views/layout.html.twig</file>
+            <file>file:/C:/wamp/www/gestionannonce/src/formation/UserBundle/Entity/User.php</file>
+            <file>file:/C:/wamp/www/gestionannonce/src/formation/UserBundle/Resources/views/Resetting/reset_content.html.twig</file>
+            <file>file:/C:/wamp/www/gestionannonce/src/formation/UserBundle/Resources/views/Security/login.html.twig</file>
+            <file>file:/C:/wamp/www/gestionannonce/src/formation/annonceBundle/Resources/views/Annonces/editer.html.twig</file>
+            <file>file:/C:/wamp/www/gestionannonce/src/formation/annonceBundle/Entity/Categories.php</file>
+            <file>file:/C:/wamp/www/gestionannonce/src/formation/UserBundle/Resources/views/Registration/register_content.html.twig</file>
+            <file>file:/C:/wamp/www/gestionannonce/src/formation/annonceBundle/Resources/config/services.yml</file>
+            <file>file:/C:/wamp/www/gestionannonce/src/formation/UserBundle/Resources/views/ChangePassword/changePassword.html.twig</file>
+            <file>file:/C:/wamp/www/gestionannonce/src/formation/UserBundle/Resources/views/ChangePassword/changePassword_content.html.twig</file>
+            <file>file:/C:/wamp/www/gestionannonce/app/config/services.yml</file>
+            <file>file:/C:/wamp/www/gestionannonce/src/formation/UserBundle/Resources/views/Profile/show_content.html.twig</file>
+            <file>file:/C:/wamp/www/gestionannonce/src/formation/UserBundle/Resources/views/Registration/register.html.twig</file>
+            <file>file:/C:/wamp/www/gestionannonce/src/formation/UserBundle/Resources/views/Registration/checkEmail.html.twig</file>
+            <file>file:/C:/wamp/www/gestionannonce/app/config/routing.yml</file>
+            <file>file:/C:/wamp/www/gestionannonce/src/formation/annonceBundle/Resources/views/Annonces/list.html.twig</file>
+            <file>file:/C:/wamp/www/gestionannonce/src/formation/UserBundle/Resources/views/Profile/show.html.twig</file>
+            <file>file:/C:/wamp/www/gestionannonce/app/Resources/views/base.html.twig</file>
+            <file>file:/C:/wamp/www/gestionannonce/src/formation/UserBundle/Resources/config/routing.yml</file>
+            <file>file:/C:/wamp/www/gestionannonce/src/formation/annonceBundle/testservice/test.php</file>
+            <file>file:/C:/wamp/www/gestionannonce/app/config/newhtml.html</file>
+            <file>file:/C:/wamp/www/gestionannonce/app/config/routing_dev.yml</file>
+            <file>file:/C:/wamp/www/gestionannonce/src/formation/UserBundle/Resources/views/Default/index.html.twig</file>
+            <file>file:/C:/wamp/www/gestionannonce/src/formation/annonceBundle/annonceBundle.php</file>
+            <file>file:/C:/wamp/www/gestionannonce/src/formation/annonceBundle/Tests/Controller/DefaultControllerTest.php</file>
+            <file>file:/C:/wamp/www/gestionannonce/app/config/security.yml</file>
+        </group>
+    </open-files>
+</project-private>

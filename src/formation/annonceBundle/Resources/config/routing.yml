@@ -1,0 +1,39 @@
+annonce_homepage:
+    path:     /test
+    defaults: { _controller: annonceBundle:Default:index }
+
+
+    
+annonce_homepage2:
+    path:     /test1/{prenom}
+    defaults: { _controller: annonceBundle:Bonjour:index2 }
+annonce_somme:
+    path:     /test1/{var1}/{var2}
+    defaults: { _controller: annonceBundle:Bonjour:somme }
+annonce_information:
+    path:     /information
+    defaults: { _controller: annonceBundle:Bonjour:information }
+categorie_ajouter:
+    path:     /categorie/add
+    defaults: { _controller: annonceBundle:Categorie:add }   
+categorie_lister:
+    path:     /categorie/list
+    defaults: { _controller: annonceBundle:Categorie:list }  
+annonces_ajouter:
+    path:     /annonce/add
+    defaults: { _controller: annonceBundle:Annonce:add}
+annonces_lister:
+    path:     /annonce/list
+    defaults: { _controller: annonceBundle:Annonce:list}
+annonces_modifier:
+    path:     /annonce/modifier/{id}
+    defaults: { _controller: annonceBundle:Annonce:editer}
+annonces_supprimer:
+    path:     /annonce/supprimer/{id}
+    defaults: { _controller: annonceBundle:Annonce:supprimer}
+annonces_top:
+    path:     /annonce/top
+    defaults: { _controller: annonceBundle:Annonce:top}
+annonces_infereur:
+    path: /annonce/test/{var}
+    defaults: { _controller: annonceBundle:Annonce:isIinferieure}

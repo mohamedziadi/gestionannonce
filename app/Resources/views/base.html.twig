@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title></title>
+        <link rel="stylesheet" href="{{asset('bundles/css/bootstrap.css')}}"/>
+        <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}" />
+        <style>
+            
+            .footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  line-height: 60px; /* Vertically center the text there */
+  background-color: #222222;
+}
+
+        </style>
+    </head>
+    <body>
+       
+        {% block header %}
+               <div class="col-md-12">
+            <div class="row">
+         
+                
+         <nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">WebSiteName</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="#">Home</a></li>
+      <li><a href="#">Page 1</a></li>
+      <li><a href="#">Page 2</a></li>
+      <li><a href="#">Page 3</a></li>
+    </ul>
+       <ul class="nav navbar-right">
+          
+          {% if app.user.username is defined %}
+              <li><a href="{{path('fos_user_profile_show')}}"  style="color:#FFFFFF">{{ app.user.username }}</a></li>
+{% endif %}
+         
+    </ul>
+  </div>
+            </div></div>
+        {% endblock %}
+        {% block content %}{% endblock %}
+         {% block footer %}
+     <footer class="footer ">
+      <div class="container">
+        <span class="text-muted">Place sticky footer content here.</span>
+      </div>
+    </footer>
+            <script src="{{asset('bundles/js/bootstrap.min.js')}}"></script>
+        
+        {% endblock %}
+    </body>
+</html>

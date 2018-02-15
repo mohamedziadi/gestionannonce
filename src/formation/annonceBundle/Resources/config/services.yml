@@ -1,0 +1,3 @@
+services:
+  monservice:
+    class: formation\annonceBundle\testservice\Test

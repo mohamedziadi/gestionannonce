@@ -1,0 +1,15 @@
+{%for key,p in personnes %}
+    <h4> La personne numero: {{key}}</h4>
+    <p>
+        <b>Nom:</b> {{p.nom}}</br>
+        <b>Prenom</b> {{p.prenom}}</br>
+        <b>Age</b> {{p.age}}</br>
+        <b>Date de naissance:</b> {{p.date|date('y/m/d')}}</br>
+        <b>Spécialité:</b> {{p.Diplome.specialite}}</br>
+        <b>Années d'études:</b> {{p.Diplome.Nb}}</br>
+        
+        
+    </p>
+    
+    
+    {% endfor%}
